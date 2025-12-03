@@ -154,13 +154,19 @@ _Notice the `Simple` Design. In depth reports are available in the reports sec
 
 _Just an FPGA image...detailed sch available in docs._  
 <img src="images/Layout.png" alt="Simulation Waveform" width="300"/>
+<p align="center">
+  <img src="images/FPGA view.png" width="20%"/>
+  <img src="images/zoom in.png" width="20%"/>
+  <img src="images/zooom in.png" width="20%"/>
+  <img src="images/zoooom in.png" width="20%"/>
+</p>
 
 
 ## Power Consumption
 
 _The power analysis shows a very well balanced power consumption profile. There could have been measures to reduce high fanout...but this is not what this project is about...so maybe next time_  
-<img src="images/Power.png" alt="Power Report" width="600"/>
-<img src="images/Config.png" alt="Power Report" width="600"/>
+<img src="images/Power.png" alt="Power Report" width="300"/>
+<img src="images/Config.png" alt="Power Report" width="300"/>
 
 ---
 
