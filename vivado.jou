@@ -2,18 +2,15 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sun Nov 30 18:43:18 2025
-# Process ID: 3260
-# Current directory: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30696 C:\Users\RISHIK NAIR\Downloads\To-do\FIFO_Random_Depth\FIFO_Random_Depth.xpr
-# Log file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/vivado.log
-# Journal file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth\vivado.jou
+# Start of session at: Wed Dec  3 22:47:40 2025
+# Process ID: 24236
+# Current directory: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/fifo-that-lies-to-you
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15024 C:\Users\RISHIK NAIR\Downloads\To-do\FIFO_Random_Depth\fifo-that-lies-to-you\FIFO_Random_Depth.xpr
+# Log file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/fifo-that-lies-to-you/vivado.log
+# Journal file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/fifo-that-lies-to-you\vivado.jou
 #-----------------------------------------------------------
 start_gui
-oopen_project {C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/FIFO_Random_Depth.xpr}uupdate_compile_order -fileset sources_1
+open_project {C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/fifo-that-lies-to-you/FIFO_Random_Depth.xpr}
+update_compile_order -fileset sources_1
 open_run impl_1
-synth_design -rtl -name rtl_1
-set_property package_pin "" [get_ports [list  {wr_data[7]}]]
-set_property package_pin "" [get_ports [list  empty]]
-set_property package_pin "" [get_ports [list  clk]]
-set_property package_pin "" [get_ports [list  clk]]
+report_utilization -name utilization_1
