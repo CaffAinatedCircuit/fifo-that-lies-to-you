@@ -1,4 +1,4 @@
-# 🎪 The Gaslighting FIFO
+# 🎪 The Gaslighting FIF
 
 > _Or: How I Learned to Stop Worrying and Love the Overflow_
 
