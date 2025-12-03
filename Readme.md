@@ -128,23 +128,39 @@ This project wasn't a straight line; it was as chaotic as the FIFO itself.
 
 ## Schematic View
 
+_Here you can see a normal `FIFO` logic. Our design is similar except for the LFSR, which then controls the `full` flag comparator._  
+<img src="images/FIFO Arch.png" alt="Schematic View" width="200"/>
+
+## Architecture and TB View
+
 _Here you can see the `chaos_trigger` logic feeding into the LFSR, which then controls the `full` flag comparator._  
-<img src="images/schematic_view.png" alt="Schematic View" width="800"/>
+<img src="images/Architecture.png" alt="Schematic View" width="400"/>
+
+_This is the `testbench` logic._ 
+<img src="images/TB Arch.drawio.png" alt="Schematic View" width="600"/>
 
 ## Synthesis Waveforms
 
 _Notice the `full` flag (red line) toggling frantically even when the buffer isn't physically full. That's the panic setting in._  
-<img src="images/waveform.png" alt="Simulation Waveform" width="800"/>
+<img src="images/Waveform.png" alt="Simulation Waveform" width="600"/>
 
 ## Implementation & Utilization
 
-_Despite the complex behavior, the utilization remains low. Chaos is surprisingly cheap in terms of LUTs._  
-<img src="images/utilization_table.png" alt="Utilization Report" width="600"/>
+_Notice the `Simple` Design. In depth reports are available in the reports section_  
+<img src="images/Utilization.png" alt="Simulation Waveform" width="400"/>
+
+
+## Layout
+
+_Just an FPGA image...detailed sch available in docs._  
+<img src="images/Layout.png" alt="Simulation Waveform" width="300"/>
+
 
 ## Power Consumption
 
-_The power analysis shows spikes during the "Stubborn Write" phases where the testbench hammers the logic to get access._  
-<img src="images/power_graph.png" alt="Power Report" width="600"/>
+_The power analysis shows a very well balanced power consumption profile. There could have been measures to reduce high fanout...but this is not what this project is about...so maybe next time_  
+<img src="images/Power.png" alt="Power Report" width="600"/>
+<img src="images/Config.png" alt="Power Report" width="600"/>
 
 ---
 
