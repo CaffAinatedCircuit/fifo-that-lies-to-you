@@ -1,0 +1,12 @@
+# VISUALIZERROOT = 'C:/questasim64_2024.1/win64/VisualizerRls'
+# USER = 'RISHIK NAIR'
+# Siemens software version 2024.1 (Build on Feb  1 2024)
+# Unpublished work. Copyright 2025 Siemens
+
+# visualizer {+source_file+C:\Users\RISHIK NAIR\Downloads\To-do\FIFO_Random_Depth\Reports\chaos_fifo.vhd}
+# Window layout 'Default' saved in file: C:/Users/RISHIK NAIR/.visualizer/layout.xml
+# Start  : Sun Nov 30 20:41:00 2025
+# End    : Sun Nov 30 20:41:12 2025
+# VMSize : 400302080
+# VMPeak : 400302080
+# MaxRSS : 227188736

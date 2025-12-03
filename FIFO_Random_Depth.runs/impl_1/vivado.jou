@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov 30 18:35:06 2025
+# Process ID: 25628
+# Current directory: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/FIFO_Random_Depth.runs/impl_1
+# Command line: vivado.exe -log chaos_fifo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source chaos_fifo.tcl -notrace
+# Log file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/FIFO_Random_Depth.runs/impl_1/chaos_fifo.vdi
+# Journal file: C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/FIFO_Random_Depth.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source chaos_fifo.tcl -notrace

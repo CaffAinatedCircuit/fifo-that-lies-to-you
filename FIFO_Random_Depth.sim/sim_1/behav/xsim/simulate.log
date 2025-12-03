@@ -1,0 +1,59 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+=== CHAOS FIFO TEST START ===
+[T=36000] Write SUCCESS (Val: 0x10). Depth is 843.
+[T=56000] Write SUCCESS (Val: 0x11). Depth is 1687.
+[T=76000] Write SUCCESS (Val: 0x12). Depth is 1326.
+[T=96000] Write SUCCESS (Val: 0x13). Depth is 604.
+[T=116000] Write SUCCESS (Val: 0x14). Depth is 1208.
+[T=136000] Write SUCCESS (Val: 0x15). Depth is 369.
+[T=156000] Write SUCCESS (Val: 0x16). Depth is 738.
+[T=176000] Write SUCCESS (Val: 0x17). Depth is 1477.
+[T=196000] Write SUCCESS (Val: 0x18). Depth is 907.
+[T=216000] Write SUCCESS (Val: 0x19). Depth is 1815.
+[T=236000] Write SUCCESS (Val: 0x1a). Depth is 1582.
+[T=256000] Write SUCCESS (Val: 0x1b). Depth is 1116.
+[T=276000] Write SUCCESS (Val: 0x1c). Depth is 185.
+[T=296000] Write SUCCESS (Val: 0x1d). Depth is 370.
+[T=316000] Write SUCCESS (Val: 0x1e). Depth is 741.
+[T=336000] Write SUCCESS (Val: 0x1f). Depth is 1482.
+[T=356000] Write SUCCESS (Val: 0x20). Depth is 916.
+[T=376000] Write SUCCESS (Val: 0x21). Depth is 1832.
+[T=396000] Write SUCCESS (Val: 0x22). Depth is 1617.
+[T=416000] Write SUCCESS (Val: 0x23). Depth is 1187.
+[T=436000] Write SUCCESS (Val: 0x24). Depth is 326.
+[T=456000] Write SUCCESS (Val: 0x25). Depth is 653.
+[T=476000] Write SUCCESS (Val: 0x26). Depth is 1306.
+[T=496000] Write SUCCESS (Val: 0x27). Depth is 564.
+[T=516000] Write SUCCESS (Val: 0x28). Depth is 1128.
+[T=536000] Write SUCCESS (Val: 0x29). Depth is 209.
+[T=556000] Write SUCCESS (Val: 0x2a). Depth is 418.
+[T=576000] Write SUCCESS (Val: 0x2b). Depth is 837.
+[T=596000] Write SUCCESS (Val: 0x2c). Depth is 1674.
+[T=616000] Write SUCCESS (Val: 0x2d). Depth is 1300.
+[T=636000] Write SUCCESS (Val: 0x2e). Depth is 553.
+[T=656000] Write SUCCESS (Val: 0x2f). Depth is 1106.
+--- Write Phase Complete ---
+--- Starting Read Phase ---
+[T=686000] Read SUCCESS: Got 0x11.
+ERROR: Mismatch! Exp: 0x10, Got: 0x11
+[T=716000] Read SUCCESS: Got 0x13.
+ERROR: Mismatch! Exp: 0x11, Got: 0x13
+[T=746000] Read SUCCESS: Got 0x14.
+ERROR: Mismatch! Exp: 0x12, Got: 0x14
+[T=776000] Read SUCCESS: Got 0x16.
+ERROR: Mismatch! Exp: 0x13, Got: 0x16
+[T=806000] Read SUCCESS: Got 0x17.
+ERROR: Mismatch! Exp: 0x14, Got: 0x17
+[T=836000] Read SUCCESS: Got 0x19.
+ERROR: Mismatch! Exp: 0x15, Got: 0x19
+[T=866000] Read SUCCESS: Got 0x1a.
+ERROR: Mismatch! Exp: 0x16, Got: 0x1a
+[T=896000] Read SUCCESS: Got 0x1c.
+ERROR: Mismatch! Exp: 0x17, Got: 0x1c
+[T=926000] Read SUCCESS: Got 0x1d.
+ERROR: Mismatch! Exp: 0x18, Got: 0x1d
+[T=956000] Read SUCCESS: Got 0x1f.
+ERROR: Mismatch! Exp: 0x19, Got: 0x1f
+[T=986000] Read SUCCESS: Got 0x20.
+ERROR: Mismatch! Exp: 0x1a, Got: 0x20

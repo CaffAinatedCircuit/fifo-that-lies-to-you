@@ -1,0 +1,171 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Nov 30 17:56:23 2025
+| Host         : HOFUD running 64-bit major release  (build 9200)
+| Command      : report_methodology -name ultrafast_methodology_1 -file {C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/ultrafast_methodology_Implementation.txt} -rpx {C:/Users/RISHIK NAIR/Downloads/To-do/FIFO_Random_Depth/ultrafast_methodology_implementation.rpx} -checks {PDRC-204 PDRC-190 TIMING-43 TIMING-42 TIMING-41 TIMING-40 TIMING-39 TIMING-38 TIMING-37 TIMING-36 TIMING-35 TIMING-34 TIMING-33 TIMING-32 TIMING-31 TIMING-30 TIMING-29 TIMING-28 TIMING-27 TIMING-26 TIMING-25 TIMING-24 TIMING-23 TIMING-22 TIMING-21 TIMING-20 TIMING-19 TIMING-18 TIMING-17 TIMING-16 TIMING-15 TIMING-14 TIMING-13 TIMING-12 TIMING-11 TIMING-10 TIMING-9 TIMING-8 TIMING-7 TIMING-6 TIMING-5 TIMING-4 TIMING-3 TIMING-2 TIMING-1 XDCV-2 XDCV-1 XDCH-2 XDCH-1 XDCC-8 XDCC-7 XDCC-6 XDCC-5 XDCC-4 XDCC-3 XDCC-2 XDCC-1 XDCB-5 XDCB-4 XDCB-3 XDCB-2 XDCB-1 CLKC-54 CLKC-53 CLKC-52 CLKC-51 CLKC-48 CLKC-47 CLKC-44 CLKC-34 CLKC-43 CLKC-33 CLKC-42 CLKC-40 CLKC-32 CLKC-30 CLKC-28 CLKC-26 CLKC-24 CLKC-22 CLKC-41 CLKC-39 CLKC-31 CLKC-29 CLKC-27 CLKC-25 CLKC-23 CLKC-21 CLKC-17 CLKC-13 CLKC-16 CLKC-12 CLKC-15 CLKC-11 CLKC-14 CLKC-10 CLKC-8 CLKC-7 CLKC-6 CLKC-9 CLKC-5 CLKC-38 CLKC-37 CLKC-36 CLKC-35 CLKC-4 CLKC-20 CLKC-19 CLKC-18 CLKC-3 CLKC-2 CLKC-1 LUTAR-1 HPDR-1 NTCN-1 CKLD-2 CKLD-1 DPIR-2 DPIR-1 BSCK-11 BSCK-10 BSCK-8 SYNTH-14 SYNTH-13 SYNTH-12 SYNTH-11 SYNTH-10 SYNTH-9 SYNTH-16 SYNTH-15 SYNTH-6 SYNTH-5 SYNTH-4}
+| Design       : chaos_fifo
+| Device       : xcvu9p-flga2104-2L-e
+| Speed File   : -2L
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+
+            Checks: BSCK-8 BSCK-10 BSCK-11 CKLD-1 CKLD-2 CLKC-1 CLKC-2 CLKC-3 
+CLKC-4 CLKC-5 CLKC-6 CLKC-7 CLKC-8 CLKC-9 CLKC-10 CLKC-11 CLKC-12 CLKC-13 
+CLKC-14 CLKC-15 CLKC-16 CLKC-17 CLKC-18 CLKC-19 CLKC-20 CLKC-21 CLKC-22 CLKC-23 
+CLKC-24 CLKC-25 CLKC-26 CLKC-27 CLKC-28 CLKC-29 CLKC-30 CLKC-31 CLKC-32 CLKC-33 
+CLKC-34 CLKC-35 CLKC-36 CLKC-37 CLKC-38 CLKC-39 CLKC-40 CLKC-41 CLKC-42 CLKC-43 
+CLKC-44 CLKC-47 CLKC-48 CLKC-51 CLKC-52 CLKC-53 CLKC-54 DPIR-1 DPIR-2 HPDR-1 
+LUTAR-1 NTCN-1 PDRC-190 PDRC-204 SYNTH-4 SYNTH-5 SYNTH-6 SYNTH-9 SYNTH-10 
+SYNTH-11 SYNTH-12 SYNTH-13 SYNTH-14 SYNTH-15 SYNTH-16 TIMING-1 TIMING-2 TIMING-3
+TIMING-4 TIMING-5 TIMING-6 TIMING-7 TIMING-8 TIMING-9 TIMING-10 TIMING-11 
+TIMING-12 TIMING-13 TIMING-14 TIMING-15 TIMING-16 TIMING-17 TIMING-18 TIMING-19 
+TIMING-20 TIMING-21 TIMING-22 TIMING-23 TIMING-24 TIMING-25 TIMING-26 TIMING-27 
+TIMING-28 TIMING-29 TIMING-30 TIMING-31 TIMING-32 TIMING-33 TIMING-34 TIMING-35 
+TIMING-36 TIMING-37 TIMING-38 TIMING-39 TIMING-40 TIMING-41 TIMING-42 TIMING-43 
+XDCB-1 XDCB-2 XDCB-3 XDCB-4 XDCB-5 XDCC-1 XDCC-2 XDCC-3 XDCC-4 XDCC-5 XDCC-6 
+XDCC-7 XDCC-8 XDCH-1 XDCH-2 XDCV-1 XDCV-2
+             Max violations: <unlimited>
+             Violations found: 24
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 24         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rd_en relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on rst_n relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on wr_en relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[0] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[10] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[1] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[2] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[3] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[4] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[5] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[6] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[7] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[8] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on current_max_depth[9] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on empty relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on full relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[0] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[1] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[2] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[3] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[4] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[5] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[6] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on rd_data[7] relative to clock(s) clk
+Related violations: <none>
+
+
