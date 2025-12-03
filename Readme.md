@@ -153,12 +153,13 @@ _Notice the `Simple` Design. In depth reports are available in the reports sec
 ## Layout
 
 _Just an FPGA image...detailed sch available in docs._  
-<img src="images/Layout.png" alt="Post Implemented Layouts" width="300"/>
+
 <p align="center">
+<img src="images/Layout.png" alt="Post Implemented Layouts" width="300"/>
   <img src="images/FPGA view.png" width="20%"/>
-  <img src="images/zoom in.png" width="20%"/>
-  <img src="images/zooom in.png" width="20%"/>
-  <img src="images/zoooom in.png" width="20%"/>
+  <img src="images/zoom in.png" width="40%"/>
+  <img src="images/zooom in.png" width="50%"/>
+  <img src="images/zoooom in.png" width="50%"/>
 </p>
 
 
